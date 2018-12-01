@@ -28,10 +28,11 @@ navbar-links:
   # About Me: "aboutme"
   Blog: https://ivan.cgartech.com/blog
   Resources:
-    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    # - Learn markdown: "http://www.markdowntutorial.com/"
+    - Youku: "http://i.youku.com/cgartech"
+    - Blog-简书: "http://www.markdowntutorial.com/"
+    - Confluence文档: "http://nat.cgartech.com:8090/"
     - GitHub Pages: "https://github.com/IvanYangYangXi/"
-  Author's home: "http://ivan.cgartech.com/index#about"
+  Author's home: "http://ivan.cgartech.com/home"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -89,7 +90,7 @@ social-network-links:
 #  instagram: deanat78
 #  youtube: user/deanat78
 #  spotify: IvanYang
-#  telephone: 17682319580
+ telephone: 17682319580
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -100,6 +101,8 @@ share-links-active:
   facebook: false
   google: false
   linkedin: true
+  email: true
+  telephone: true
 
 # 如何在页脚显示链接到网站
 # Remove this if you don't want a link in the footer
@@ -155,8 +158,8 @@ highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
-# kramdown:
-#   input: GFM
+kramdown:
+  input: GFM
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -189,6 +192,11 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - 2015-01-15-pirates.md
+  - 2015-01-19-soccer.md
+  - 2015-01-27-dear-diary.md
+  - 2015-02-13-hamlet-monologue.md
+  - 2015-02-26-flake-it-till-you-make-it.md
 
 # prose.io config
 prose:
