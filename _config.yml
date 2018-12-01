@@ -4,8 +4,10 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://ivanyangyangxi.github.io/myweb"
-baseurl: "/myweb"
+# url: "https://ivanyangyangxi.github.io/myweb"
+# baseurl: "/myweb"
+url: "https://ivan.cgartech.com"
+baseurl: "/blog"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -99,7 +101,7 @@ share-links-active:
   google: false
   linkedin: true
 
-# How to display the link to the website in the footer
+# 如何在页脚显示链接到网站
 # Remove this if you don't want a link in the footer
 url-pretty: "ivan.cgartech.com/blog"  # eg. "deanattali.com/beautiful-jekyll"
 
