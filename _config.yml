@@ -79,7 +79,7 @@ social-network-links:
   rss: true
   email: "523166477@qq.com"
   facebook: 
-  github: 
+  github: "IvanYangYangXi"
   twitter: 
 #  reddit: yourname
 #  google-plus: +DeanAttali
@@ -101,7 +101,7 @@ share-links-active:
   facebook: false
   google: false
   linkedin: true
-  # email: true
+  email: true
   # telephone: true
 
 # 如何在页脚显示链接到网站
