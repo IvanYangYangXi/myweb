@@ -4,10 +4,10 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-# url: "https://ivanyangyangxi.github.io"
-# baseurl: "/myweb"
-url: "https://ivan.cgartech.com"
+url: "http://ivanyangyangxi.github.io/myweb"
 baseurl: "/myweb"
+# url: "https://ivan.cgartech.com"
+# baseurl: "/myweb"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -16,7 +16,7 @@ baseurl: "/myweb"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Ivan 杨杨兮
+title: Ivan Yang
 
 # Short description of your site
 description: Manager/Technical Artist
@@ -89,7 +89,7 @@ social-network-links:
 #  instagram: deanat78
 #  youtube: user/deanat78
 #  spotify: IvanYang
-  telephone: 17682319580
+#  telephone: 17682319580
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -167,6 +167,7 @@ defaults:
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
+      show-share: true # add sharing buttons to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
@@ -190,56 +191,56 @@ exclude:
   - Vagrantfile
 
 # prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'img'
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /img
-    - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
+# prose:
+#   rooturl: '_posts'
+#   media: 'img'
+#   ignore:
+#     - 404.html
+#     - LICENSE
+#     - feed.xml
+#     - _config.yml
+#     - /_layouts
+#     - /_includes
+#     - /css
+#     - /img
+#     - /js
+#   metadata:
+#     _posts:
+#       - name: "layout"
+#         field:
+#           element: "hidden"
+#           value: "post"
+#       - name: "title"
+#         field:
+#           element: "text"
+#           label: "Post title"
+#           placeholder: "Title"
+#           alterable: true
+#       - name: "subtitle"
+#         field:
+#           element: "textarea"
+#           label: "Subtitle"
+#           placeholder: "A description of your post."
+#           alterable: true
+#       - name: "date"
+#         field:
+#           element: "text"
+#           label: "Date"
+#           help: "Enter date of post."
+#           placeholder: "yyyy-mm-dd"
+#           alterable: true
+#       - name: "image"
+#         field:
+#           element: "text"
+#           label: "Image"
+#           help: "Add a thumbnail image to your post."
+#           placeholder: "Thumbnail"
+#           alterable: true
+#       - name: "published"
+#         field:
+#           element: "checkbox"
+#           label: "Publish"
+#           help: "Check to publish post, uncheck to hide."
 
 plugins:
   - jekyll-paginate
