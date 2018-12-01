@@ -6,7 +6,7 @@
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 # url: "https://ivan.cgartech.com"
 # baseurl: 
-url: "https://ivan.cgartech.com"
+url: "https://ivan.cgartech.com/"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
