@@ -103,7 +103,7 @@ share-links-active:
 
 # 如何在页脚显示链接到网站
 # Remove this if you don't want a link in the footer
-url-pretty: "ivan.cgartech.com/blog"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "ivan.cgartech.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
