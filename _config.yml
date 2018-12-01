@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 url: "https://ivan.cgartech.com"
-baseurl: ""
+baseurl: 
 # url: "https://ivan.cgartech.com"
 # baseurl: "/myweb"
 
@@ -90,7 +90,7 @@ social-network-links:
 #  instagram: deanat78
 #  youtube: user/deanat78
 #  spotify: IvanYang
- telephone: 17682319580
+ telephone: +17682319580
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -102,7 +102,7 @@ share-links-active:
   google: false
   linkedin: true
   email: true
-  telephone: true
+  # telephone: true
 
 # 如何在页脚显示链接到网站
 # Remove this if you don't want a link in the footer
