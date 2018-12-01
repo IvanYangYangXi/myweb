@@ -26,7 +26,7 @@ description: Manager/Technical Artist
 # List of links in the navigation bar
 navbar-links:
   # About Me: "aboutme"
-  Blog: https://ivan.cgartech.com/blog
+  Blog: https://ivan.cgartech.com/
   Resources:
     - Youku: "http://i.youku.com/cgartech"
     - Blog-简书: "http://www.markdowntutorial.com/"
