@@ -1,14 +1,14 @@
 # node_modules
 # _site
 # .DS_Store
-# .jekyll
-# .jekyll-metadata
-# .bundle
+.jekyll
+.jekyll-metadata
+.bundle
 # .sass-cache
 # Gemfile
 # Gemfile.lock
-# node_modules
-# package.json
+node_modules
+package.json
 
 # project
 _site
