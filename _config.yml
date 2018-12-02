@@ -27,12 +27,13 @@ description: Manager/Technical Artist
 navbar-links:
   # About Me: "aboutme"
   Blog: https://ivan.cgartech.com/
+  Tags: https://ivan.cgartech.com/tags/
   Resources:
     - Youku-优酷: "http://i.youku.com/cgartech"
     - Blog-简书: "https://www.jianshu.com/u/bde4598bdffc"
     - Confluence文档: "http://nat.cgartech.com:8090/"
     - GitHub Pages: "https://github.com/IvanYangYangXi/"
-  Author's home: "http://ivan.cgartech.com/home"
+  home: "http://ivan.cgartech.com/home"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
