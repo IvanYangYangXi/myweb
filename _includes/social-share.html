@@ -46,6 +46,15 @@
     </a>
   {% endif %}
 
+  {% if site.share-links-active.email %}
+  <!--- Share on LinkedIn -->
+    <a href="mailto:{{ site.url }}{{ page.url }}"
+      class="btn btn-social-icon btn-linkedin" title="Share on Email me">
+      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">Email me</span>
+    </a>
+  {% endif %}
+
 </section>
 
 {% endif %}

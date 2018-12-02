@@ -102,7 +102,7 @@ share-links-active:
   facebook: false
   google: false
   linkedin: true
-  # email: true
+  email: true
   # telephone: true
 
 # 如何在页脚显示链接到网站
