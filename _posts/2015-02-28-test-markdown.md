@@ -3,7 +3,7 @@ layout: post
 title: Test markdown
 subtitle: Each post also has a subtitle
 date: 2015-10-01
-published: false
+published: true
 bigimg: /img/path.jpg
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
