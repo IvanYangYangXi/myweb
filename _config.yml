@@ -103,7 +103,7 @@ share-links-active:
   google: false
   linkedin: true
   email: true
-  telephone: true
+  # telephone: true
 
 # 如何在页脚显示链接到网站
 # Remove this if you don't want a link in the footer
