@@ -2,8 +2,8 @@
 layout: post
 title: Test markdown
 subtitle: Each post also has a subtitle
-date: 
-published: 
+date: 2018-10-01
+published: Check
 bigimg: /img/path.jpg
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
